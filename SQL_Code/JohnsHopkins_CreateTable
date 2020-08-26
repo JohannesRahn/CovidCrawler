@@ -1,0 +1,12 @@
+CREATE TABLE AdvancedProgramming.Hopkins_Data (
+  dateRep varchar(8),
+  day TINYINT,
+  month TINYINT,
+  year SMALLINT,
+  country VARCHAR(255),
+  newCases INT,
+  totalCases INT,
+  deaths INT,
+  recovered INT,
+  PRIMARY KEY (day, month, year, country)
+);

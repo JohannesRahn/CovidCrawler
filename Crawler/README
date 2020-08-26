@@ -1,0 +1,1 @@
+All crawlers are being executed on a daily basis through the RaspberryPi's 'crontab' feature.  

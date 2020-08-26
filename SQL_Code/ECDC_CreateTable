@@ -1,0 +1,9 @@
+CREATE TABLE AdvancedProgramming.ECDC_Data (
+dateRep varchar(11),
+day TINYINT,
+month TINYINT,
+year SMALLINT,
+cases INT,
+deaths INT,
+countriesAndTerritories varchar(255),
+geoId FOREIGN KEY AdvancedProgramming.ECDC_Country_Info,

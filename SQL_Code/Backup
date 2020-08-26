@@ -1,0 +1,1 @@
+sudo mysqldump -u root -p*PW* AdvancedProgramming> /home/pi/AdvProg/Backup_Data/AdvancedProgramming_`date +\%m_\%d_\%Y`.sql

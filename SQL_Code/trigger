@@ -1,0 +1,20 @@
+# SAME TRIGGER FOR ECDC
+DROP TRIGGER IF EXISTS tr_hopkins_insert;
+DELIMITER $$
+CREATE TRIGGER tr_hopkins_insert 
+BEFORE INSERT ON Hopkins_Data
+FOR EACH ROW
+BEGIN
+IF NEW.cases < 0 THEN
+	SET NEW.cases = null;
+END IF;
+IF NEW.deaths < 0 THEN
+	SET NEW.deaths = null;
+END IF;
+IF NEW.totalCases < 0 THEN
+	SET NEW.totalCases = null;
+END IF;
+IF NEW.totalDeaths < 0 THEN
+	SET NEW.totalDeaths = null;
+END IF;
+end;
