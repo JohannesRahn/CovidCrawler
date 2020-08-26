@@ -1,5 +1,6 @@
 AdvProg
 Package for crawling Covid-19 data from different major sources of data.
+In the backup folder you can find backups from the database. This is only relevant for the RKI as the data from this source is crawled from a website where no historic data is displayed. 
 
 The sources of data are:
 
