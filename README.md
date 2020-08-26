@@ -8,7 +8,8 @@ worldwide:
 - ECDC
 - Johns Hopkins University
 - Google Mobility data
-\n
+
+
 Germany:
 - RKI (incl. state level on a daily basis)
 
