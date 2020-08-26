@@ -14,3 +14,6 @@ Germany:
 - RKI (incl. state level on a daily basis)
 
 The Backup_Data folder provides all SQL dumps of the database until the beginning of July. After that the database got migrated to a Google Cloud SQL Database.
+
+Important note for usage: 
+- there  are a few triggers set on the database. Not all of them are in the SQL Trigger file. You might want to load the Backup file "Cloud_SQL_Export_2020-08-25 (08_13_45)" in order to have everything set up the way it is supposed to be.
